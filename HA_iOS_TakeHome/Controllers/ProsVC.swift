@@ -9,8 +9,12 @@
 import UIKit
 
 class ProsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
-  
+    
+    
     @IBOutlet weak var prosTable: UITableView!
+    
+    var  currentCellData: ProListItem?
+    var pros : [ProListItem] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,14 +34,30 @@ class ProsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
             cell.updateViews(proList: pro)
             return cell
         } else {
+            print("oops")
             return ProsCell()
         }
     }
+    
 
 // MARK - UITableView Delegate Methods
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "detailSegue", sender: indexPath)
         tableView.deselectRow(at: indexPath, animated: true)
+}
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+        if segue.identifier == "detailSegue" {
+            let pros = DataService.instance.getPros()
+            if let dest = segue.destination as? DetailVC, let index = sender as? IndexPath {
+                dest.selection = pros[index.row].companyName
+        }
+       
+        }
+        
     }
     
-
 }
+

@@ -8,10 +8,12 @@
 
 import UIKit
 
-class ProsCell: UITableViewCell {
 
+class ProsCell: UITableViewCell {
+    
     @IBOutlet weak var prosNameLabel: UILabel!
     @IBOutlet weak var ratingLabel: UILabel!
+    
     
     func updateViews(proList: ProListItem) {
          let ratingTextString = "Rating: \(proList.compositeRating) | \(proList.ratingCount) rating(s)"
@@ -32,6 +34,9 @@ class ProsCell: UITableViewCell {
             }
 
         prosNameLabel.text = proList.companyName
+       
     }
+    
+    
 
 }
