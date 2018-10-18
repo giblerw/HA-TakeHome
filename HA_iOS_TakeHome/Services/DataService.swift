@@ -35,6 +35,7 @@ class DataService {
     ]
     
     func getPros() -> [ProListItem] {
-        return proList
+        let sortedList = proList.sorted(by: {$0.companyName < $1.companyName})
+        return sortedList
     }
 }
