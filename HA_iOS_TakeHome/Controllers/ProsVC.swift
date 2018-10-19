@@ -52,7 +52,7 @@ class ProsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         if segue.identifier == "detailSegue" {
             let pros = DataService.instance.getPros()
             if let dest = segue.destination as? DetailVC, let index = sender as? IndexPath {
-                dest.selection = pros[index.row].companyName
+                dest.selection = pros[index.row]
         }
        
         }

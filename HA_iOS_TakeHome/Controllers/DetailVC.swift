@@ -10,25 +10,34 @@ import UIKit
 
 class DetailVC: UIViewController {
 
-    var selection: String!
+    var selection: ProListItem!
     
-    @IBOutlet private weak var detailsLabel: UILabel!
+    @IBOutlet private weak var companyTitleLabel: UILabel!
+    @IBOutlet private weak var specialityLabel: UILabel!
+    @IBOutlet private weak var ratingsLabel: UILabel!
+    @IBOutlet private weak var locationLabel: UILabel!
+    @IBOutlet private weak var servicesLabel: UILabel!
+    @IBOutlet private weak var overviewLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        detailsLabel.text = selection
+        companyTitleLabel.text = selection.companyName
+        specialityLabel.text = selection.specialty
+        ratingsLabel.text = updateDetailView(pro: selection)
+        locationLabel.text = selection.primaryLocation
+        servicesLabel.text = selection.servicesOffered
+        overviewLabel.text = selection.companyOverview
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func updateDetailView(pro: ProListItem) -> String {
+        let ratingTextString = "Rating: \(pro.compositeRating) | \(pro.ratingCount) rating(s)"
+        let ratingRank: Double = Double(pro.compositeRating) ?? 0.0
+        if ratingRank > 0.0 {
+            return ratingTextString
+        } else {
+            return "References Available"
+        }
+        
     }
-    */
 
 }

@@ -10,11 +10,21 @@ import UIKit
 
 class Details: UIView {
 
-    @IBOutlet weak var companyTitleLabel: UILabel!
-    
-    func populateDetails(pro: ProListItem) {
-        companyTitleLabel.text = pro.companyName
-    }
    
+    
+   
+    func updateDetailView(pro: ProListItem) -> String {
+        let ratingTextString = "Rating: \(pro.compositeRating) | \(pro.ratingCount) rating(s)"
+        guard let ratingRank = Double(pro.compositeRating) else { return "References Available"}
+        
+        if ratingRank > 0.0 {
+            return ratingTextString
+        } else {
+            return "References Available"
+        }
+        
+        
+
+    }
 
 }
