@@ -5,22 +5,16 @@
 //  Created by Weston Gibler on 10/17/18.
 //  Copyright © 2018 Weston Gibler. All rights reserved.
 //
-
 import UIKit
 
 class ProsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    
     @IBOutlet weak var prosTable: UITableView!
-    
-    var  currentCellData: ProListItem?
-    var pros : [ProListItem] = []
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         prosTable.dataSource = self
         prosTable.delegate = self
-       
     }
     
 // MARK - UITableView DataSource Methods
@@ -33,10 +27,7 @@ class ProsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
             let pro = DataService.instance.getPros()[indexPath.row]
             cell.updateViews(proList: pro)
             return cell
-        } else {
-            print("oops")
-            return ProsCell()
-        }
+        } else { return ProsCell() }
     }
     
 
@@ -44,20 +35,17 @@ class ProsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "detailSegue", sender: indexPath)
         tableView.deselectRow(at: indexPath, animated: true)
-}
+    }
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    
         if segue.identifier == "detailSegue" {
-            let pros = DataService.instance.getPros()
+        let pros = DataService.instance.getPros()
             if let dest = segue.destination as? DetailVC, let index = sender as? IndexPath {
                 dest.selection = pros[index.row]
-        }
-       
-        }
-        
-    }
+                    }
+                }
+            }
     
 }
 

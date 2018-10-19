@@ -5,7 +5,6 @@
 //  Created by Weston Gibler on 10/17/18.
 //  Copyright © 2018 Weston Gibler. All rights reserved.
 //
-
 import Foundation
 
 struct ProListItem {

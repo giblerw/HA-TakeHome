@@ -5,7 +5,6 @@
 //  Created by Weston Gibler on 10/17/18.
 //  Copyright © 2018 Weston Gibler. All rights reserved.
 //
-
 import Foundation
 
 class DataService {
@@ -33,7 +32,6 @@ class DataService {
         ProListItem(entityId: "3338708244", companyName: "Bright Painting, Inc.", ratingCount: "11", compositeRating: "4.97", companyOverview: "A fresh coat of paint or stain can bring new life to rooms, add curb appeal to homes, and help protect your investment for years to come. We're happy to bid on all types of painting, staining and interior design projects in the Atlanta metro area. We will meet with you, at your convenience, and provide you with a free, written, detailed estimate. Locally owned and operated, we are a small company with big capabilities.", canadianSP: false, spanishSpeaking: false, phoneNumber: "(404) 555-0127", latitude: 33.8503, longitude: -84.284, servicesOffered: "Cabinets, Ceilings, Decks, Drywall  & Plaster, Flooring & Carpet, Handyman Services, Painting, Siding", specialty: "Handyman Services", primaryLocation: "Atlanta, GA", email: "contact@brightpaint.biz"),
         ProListItem(entityId: "4541281426", companyName: "Total Maintenance", ratingCount: "10", compositeRating: "4.28", companyOverview: "Hello. I offer full service handyman projects, including washer , dryer and refrigerator repair. I will also do various handyman projects for residential and commercial settings.  Please call me for a free estimate. ", canadianSP: false, spanishSpeaking: false, phoneNumber: "(404) 555-3302", latitude: 33.7062, longitude: -84.5492, servicesOffered: "Air Conditioning, Appliances, Drywall  & Plaster, Handyman Services, Plumbing", specialty: "Handyman Services", primaryLocation: "Atlanta, GA", email: "contact@totalmaint.biz"),
     ]
-    
     func getPros() -> [ProListItem] {
         let sortedList = proList.sorted(by: {$0.companyName < $1.companyName})
         return sortedList

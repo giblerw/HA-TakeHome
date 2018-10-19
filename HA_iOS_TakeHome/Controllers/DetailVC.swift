@@ -19,13 +19,21 @@ class DetailVC: UIViewController {
     @IBOutlet private weak var servicesLabel: UILabel!
     @IBOutlet private weak var overviewLabel: UILabel!
     
+    @IBAction func callButtonClicked(_ sender: Any) {
+        print( "phone = \(selection.phoneNumber)")
+    }
+    
+    @IBAction func emailButtonClicked(_ sender: Any) {
+        print("email = \(selection.email)")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         companyTitleLabel.text = selection.companyName
         specialityLabel.text = selection.specialty
         ratingsLabel.text = updateDetailView(pro: selection)
         locationLabel.text = selection.primaryLocation
-        servicesLabel.text = selection.servicesOffered
+        servicesLabel.text = updateServicesView(pro: selection)
         overviewLabel.text = selection.companyOverview
     }
     
@@ -36,8 +44,16 @@ class DetailVC: UIViewController {
             return ratingTextString
         } else {
             return "References Available"
+            }
         }
-        
-    }
+    
+    func updateServicesView(pro: ProListItem) -> String {
+        let services = "\(pro.servicesOffered)"
+        if services.count > 0 {
+            return services
+        } else {
+            return "Services Not Available"
+            }
+        }
 
 }

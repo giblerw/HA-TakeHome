@@ -16,8 +16,6 @@
 		585ADF2421780AED00D76AB6 /* ProsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF2321780AED00D76AB6 /* ProsCell.swift */; };
 		585ADF26217814E500D76AB6 /* Pros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF25217814E500D76AB6 /* Pros.swift */; };
 		585ADF2B217817D000D76AB6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF2A217817D000D76AB6 /* DataService.swift */; };
-		585ADF342178BFA900D76AB6 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF332178BFA900D76AB6 /* Details.swift */; };
-		585ADF6C2179372E00D76AB6 /* ProDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF6B2179372E00D76AB6 /* ProDetailVC.swift */; };
 		585ADF6E2179485000D76AB6 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF6D2179485000D76AB6 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +52,6 @@
 		585ADF2321780AED00D76AB6 /* ProsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProsCell.swift; sourceTree = "<group>"; };
 		585ADF25217814E500D76AB6 /* Pros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pros.swift; sourceTree = "<group>"; };
 		585ADF2A217817D000D76AB6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		585ADF332178BFA900D76AB6 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
-		585ADF6B2179372E00D76AB6 /* ProDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProDetailVC.swift; sourceTree = "<group>"; };
 		585ADF6D2179485000D76AB6 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,13 +103,12 @@
 		585ADEEC217805C300D76AB6 /* HA_iOS_TakeHome */ = {
 			isa = PBXGroup;
 			children = (
-				585ADF29217817BC00D76AB6 /* Services */,
-				585ADEF9217805C400D76AB6 /* Info.plist */,
-				585ADEED217805C300D76AB6 /* AppDelegate.swift */,
-				585ADF1D217805FB00D76AB6 /* Models */,
 				585ADF1C217805F300D76AB6 /* Views */,
 				585ADF1B217805E700D76AB6 /* Controllers */,
-				585ADEF1217805C300D76AB6 /* Main.storyboard */,
+				585ADF29217817BC00D76AB6 /* Services */,
+				585ADF1D217805FB00D76AB6 /* Models */,
+				585ADEED217805C300D76AB6 /* AppDelegate.swift */,
+				585ADEF9217805C400D76AB6 /* Info.plist */,
 				585ADF1E2178062400D76AB6 /* Utilities */,
 			);
 			path = HA_iOS_TakeHome;
@@ -141,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				585ADF21217808D700D76AB6 /* ProsVC.swift */,
-				585ADF6B2179372E00D76AB6 /* ProDetailVC.swift */,
 				585ADF6D2179485000D76AB6 /* DetailVC.swift */,
 			);
 			path = Controllers;
@@ -150,8 +144,8 @@
 		585ADF1C217805F300D76AB6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				585ADEF1217805C300D76AB6 /* Main.storyboard */,
 				585ADF2321780AED00D76AB6 /* ProsCell.swift */,
-				585ADF332178BFA900D76AB6 /* Details.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,10 +308,8 @@
 				585ADF26217814E500D76AB6 /* Pros.swift in Sources */,
 				585ADF2B217817D000D76AB6 /* DataService.swift in Sources */,
 				585ADF22217808D700D76AB6 /* ProsVC.swift in Sources */,
-				585ADF6C2179372E00D76AB6 /* ProDetailVC.swift in Sources */,
 				585ADF6E2179485000D76AB6 /* DetailVC.swift in Sources */,
 				585ADEEE217805C300D76AB6 /* AppDelegate.swift in Sources */,
-				585ADF342178BFA900D76AB6 /* Details.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

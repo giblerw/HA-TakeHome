@@ -5,15 +5,12 @@
 //  Created by Weston Gibler on 10/17/18.
 //  Copyright © 2018 Weston Gibler. All rights reserved.
 //
-
 import UIKit
-
 
 class ProsCell: UITableViewCell {
     
     @IBOutlet weak var prosNameLabel: UILabel!
     @IBOutlet weak var ratingLabel: UILabel!
-    
     
     func updateViews(proList: ProListItem) {
          let ratingTextString = "Rating: \(proList.compositeRating) | \(proList.ratingCount) rating(s)"
@@ -32,11 +29,6 @@ class ProsCell: UITableViewCell {
                 ratingLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
                 ratingLabel.text = "References Available"
             }
-
         prosNameLabel.text = proList.companyName
-       
     }
-    
-    
-
 }

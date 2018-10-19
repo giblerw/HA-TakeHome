@@ -133,7 +133,7 @@
                                             <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                         </state>
                                         <connections>
-                                            <action selector="callButtonClicked:" destination="qTn-Nc-W59" eventType="touchUpInside" id="pj6-CQ-A3J"/>
+                                            <action selector="callButtonClicked:" destination="qTn-Nc-W59" eventType="touchUpInside" id="QKa-wf-3me"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTl-G6-lSX">
@@ -148,7 +148,7 @@
                                             <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                         </state>
                                         <connections>
-                                            <action selector="emailButtonClicked:" destination="qTn-Nc-W59" eventType="touchUpInside" id="34w-CP-pfd"/>
+                                            <action selector="emailButtonClicked:" destination="qTn-Nc-W59" eventType="touchUpInside" id="bUz-rk-1lR"/>
                                         </connections>
                                     </button>
                                 </subviews>
