@@ -28,6 +28,7 @@ Step #1
 
 > 9. Tapping on a pro will navigate to the details screen.  
 
+![TableView Mockup](https://s3.us-east-2.amazonaws.com/weston-gibler-portfolio/HA/Screen+Shot+2018-10-17+at+5.48.53+PM.png)
   Step #2  
 
 
@@ -50,3 +51,7 @@ Step #1
   > 9.There will be CALL and EMAIL buttons, equal widths, 15px from the sides, bottom, and each other. They will be 50px tall, System Font Medium 16.0, with a background color of #F7901E.  
 
   > 10.Tapping the call button will print "phone = <phone number>".
+
+![UI mockup 2.0](https://s3.us-east-2.amazonaws.com/weston-gibler-portfolio/HA/Screen+Shot+2018-10-17+at+5.49.04+PM.png)
+![UI mockup 2.1](https://s3.us-east-2.amazonaws.com/weston-gibler-portfolio/HA/Screen+Shot+2018-10-17+at+5.49.19+PM.png)
+![UI mockup 2.2](https://s3.us-east-2.amazonaws.com/weston-gibler-portfolio/HA/Screen+Shot+2018-10-17+at+5.49.30+PM.png)
