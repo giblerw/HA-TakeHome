@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BBF5B2DEDB5A43B77A8C650 /* Pods_HA_iOS_TakeHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865D7D0312EEC0FC6A4416DA /* Pods_HA_iOS_TakeHome.framework */; };
 		585ADEEE217805C300D76AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADEED217805C300D76AB6 /* AppDelegate.swift */; };
 		585ADEF3217805C300D76AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585ADEF1217805C300D76AB6 /* Main.storyboard */; };
 		585ADEF5217805C400D76AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585ADEF4217805C400D76AB6 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 		585ADF26217814E500D76AB6 /* Pros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF25217814E500D76AB6 /* Pros.swift */; };
 		585ADF2B217817D000D76AB6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF2A217817D000D76AB6 /* DataService.swift */; };
 		585ADF6E2179485000D76AB6 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF6D2179485000D76AB6 /* DetailVC.swift */; };
+		588CEB32217E74FB00B7066A /* pro_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 588CEB31217E74FB00B7066A /* pro_data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		323854B61D2AB5A2D739C988 /* Pods-HA_iOS_TakeHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HA_iOS_TakeHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-HA_iOS_TakeHome/Pods-HA_iOS_TakeHome.release.xcconfig"; sourceTree = "<group>"; };
 		585ADEEA217805C300D76AB6 /* HA_iOS_TakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HA_iOS_TakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		585ADEED217805C300D76AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		585ADEF2217805C300D76AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +56,9 @@
 		585ADF25217814E500D76AB6 /* Pros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pros.swift; sourceTree = "<group>"; };
 		585ADF2A217817D000D76AB6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		585ADF6D2179485000D76AB6 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		588CEB31217E74FB00B7066A /* pro_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pro_data.json; sourceTree = "<group>"; };
+		865D7D0312EEC0FC6A4416DA /* Pods_HA_iOS_TakeHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HA_iOS_TakeHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55F0503E712B091F2D92C7C /* Pods-HA_iOS_TakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HA_iOS_TakeHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HA_iOS_TakeHome/Pods-HA_iOS_TakeHome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBF5B2DEDB5A43B77A8C650 /* Pods_HA_iOS_TakeHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C7DFF73F0D5967EF28BA7D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C55F0503E712B091F2D92C7C /* Pods-HA_iOS_TakeHome.debug.xcconfig */,
+				323854B61D2AB5A2D739C988 /* Pods-HA_iOS_TakeHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		585ADEE1217805C300D76AB6 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +103,8 @@
 				585ADF01217805C500D76AB6 /* HA_iOS_TakeHomeTests */,
 				585ADF0C217805C500D76AB6 /* HA_iOS_TakeHomeUITests */,
 				585ADEEB217805C300D76AB6 /* Products */,
+				0C7DFF73F0D5967EF28BA7D9 /* Pods */,
+				F217D7E08D945A8FD8682744 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,8 +188,17 @@
 			isa = PBXGroup;
 			children = (
 				585ADF2A217817D000D76AB6 /* DataService.swift */,
+				588CEB31217E74FB00B7066A /* pro_data.json */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		F217D7E08D945A8FD8682744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				865D7D0312EEC0FC6A4416DA /* Pods_HA_iOS_TakeHome.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 585ADF12217805C500D76AB6 /* Build configuration list for PBXNativeTarget "HA_iOS_TakeHome" */;
 			buildPhases = (
+				20B21A09119FC56B6C88BDF5 /* [CP] Check Pods Manifest.lock */,
 				585ADEE6217805C300D76AB6 /* Sources */,
 				585ADEE7217805C300D76AB6 /* Frameworks */,
 				585ADEE8217805C300D76AB6 /* Resources */,
+				D3459F157C39D24433E76882 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				585ADEF5217805C400D76AB6 /* Assets.xcassets in Resources */,
+				588CEB32217E74FB00B7066A /* pro_data.json in Resources */,
 				585ADEF3217805C300D76AB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +328,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20B21A09119FC56B6C88BDF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HA_iOS_TakeHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3459F157C39D24433E76882 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HA_iOS_TakeHome/Pods-HA_iOS_TakeHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HA_iOS_TakeHome/Pods-HA_iOS_TakeHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		585ADEE6217805C300D76AB6 /* Sources */ = {
@@ -474,6 +551,7 @@
 		};
 		585ADF13217805C500D76AB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55F0503E712B091F2D92C7C /* Pods-HA_iOS_TakeHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +570,7 @@
 		};
 		585ADF14217805C500D76AB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323854B61D2AB5A2D739C988 /* Pods-HA_iOS_TakeHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
