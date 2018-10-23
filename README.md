@@ -2,9 +2,9 @@
 #### Weston Gibler - TakeHome Evaluation
 > Approximate duration spent building: ~3.25 hours
 
-> No outside libraries or pods were used.
+> 'SwiftyJSON' and 'FBSnapshotTestCase' pods were used.
 
-> To side load the app, just clone, then open the .xcodeproj to begin.
+> To side load the app, just clone, then open the .xcworkspace to begin.
 
 ##### Requirements Completed  
 

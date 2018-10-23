@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0BBF5B2DEDB5A43B77A8C650 /* Pods_HA_iOS_TakeHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865D7D0312EEC0FC6A4416DA /* Pods_HA_iOS_TakeHome.framework */; };
+		4468D35D6D078BFD3CB7E049 /* Pods_HA_iOS_TakeHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1E45C0B31C1D3B1194BC54 /* Pods_HA_iOS_TakeHomeTests.framework */; };
+		580E9918217EC68E0050EE22 /* ProCellSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580E9917217EC68E0050EE22 /* ProCellSnapshot.swift */; };
 		585ADEEE217805C300D76AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADEED217805C300D76AB6 /* AppDelegate.swift */; };
 		585ADEF3217805C300D76AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585ADEF1217805C300D76AB6 /* Main.storyboard */; };
 		585ADEF5217805C400D76AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585ADEF4217805C400D76AB6 /* Assets.xcassets */; };
-		585ADF03217805C500D76AB6 /* HA_iOS_TakeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF02217805C500D76AB6 /* HA_iOS_TakeHomeTests.swift */; };
 		585ADF0E217805C500D76AB6 /* HA_iOS_TakeHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF0D217805C500D76AB6 /* HA_iOS_TakeHomeUITests.swift */; };
 		585ADF22217808D700D76AB6 /* ProsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF21217808D700D76AB6 /* ProsVC.swift */; };
 		585ADF2421780AED00D76AB6 /* ProsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ADF2321780AED00D76AB6 /* ProsCell.swift */; };
@@ -39,14 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07FDD773568D796DA4FBEF1D /* Pods-HA_iOS_TakeHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HA_iOS_TakeHomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HA_iOS_TakeHomeTests/Pods-HA_iOS_TakeHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B1E45C0B31C1D3B1194BC54 /* Pods_HA_iOS_TakeHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HA_iOS_TakeHomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		323854B61D2AB5A2D739C988 /* Pods-HA_iOS_TakeHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HA_iOS_TakeHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-HA_iOS_TakeHome/Pods-HA_iOS_TakeHome.release.xcconfig"; sourceTree = "<group>"; };
+		580E9917217EC68E0050EE22 /* ProCellSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCellSnapshot.swift; sourceTree = "<group>"; };
 		585ADEEA217805C300D76AB6 /* HA_iOS_TakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HA_iOS_TakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		585ADEED217805C300D76AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		585ADEF2217805C300D76AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		585ADEF4217805C400D76AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		585ADEF9217805C400D76AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		585ADEFE217805C500D76AB6 /* HA_iOS_TakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HA_iOS_TakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		585ADF02217805C500D76AB6 /* HA_iOS_TakeHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HA_iOS_TakeHomeTests.swift; sourceTree = "<group>"; };
 		585ADF04217805C500D76AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		585ADF09217805C500D76AB6 /* HA_iOS_TakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HA_iOS_TakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		585ADF0D217805C500D76AB6 /* HA_iOS_TakeHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HA_iOS_TakeHomeUITests.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 		585ADF2A217817D000D76AB6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		585ADF6D2179485000D76AB6 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		588CEB31217E74FB00B7066A /* pro_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pro_data.json; sourceTree = "<group>"; };
+		81EB35FC5AF71008DACF519B /* Pods-HA_iOS_TakeHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HA_iOS_TakeHomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HA_iOS_TakeHomeTests/Pods-HA_iOS_TakeHomeTests.release.xcconfig"; sourceTree = "<group>"; };
 		865D7D0312EEC0FC6A4416DA /* Pods_HA_iOS_TakeHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HA_iOS_TakeHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C55F0503E712B091F2D92C7C /* Pods-HA_iOS_TakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HA_iOS_TakeHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HA_iOS_TakeHome/Pods-HA_iOS_TakeHome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4468D35D6D078BFD3CB7E049 /* Pods_HA_iOS_TakeHomeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +97,8 @@
 			children = (
 				C55F0503E712B091F2D92C7C /* Pods-HA_iOS_TakeHome.debug.xcconfig */,
 				323854B61D2AB5A2D739C988 /* Pods-HA_iOS_TakeHome.release.xcconfig */,
+				07FDD773568D796DA4FBEF1D /* Pods-HA_iOS_TakeHomeTests.debug.xcconfig */,
+				81EB35FC5AF71008DACF519B /* Pods-HA_iOS_TakeHomeTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -135,8 +142,8 @@
 		585ADF01217805C500D76AB6 /* HA_iOS_TakeHomeTests */ = {
 			isa = PBXGroup;
 			children = (
-				585ADF02217805C500D76AB6 /* HA_iOS_TakeHomeTests.swift */,
 				585ADF04217805C500D76AB6 /* Info.plist */,
+				580E9917217EC68E0050EE22 /* ProCellSnapshot.swift */,
 			);
 			path = HA_iOS_TakeHomeTests;
 			sourceTree = "<group>";
@@ -197,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				865D7D0312EEC0FC6A4416DA /* Pods_HA_iOS_TakeHome.framework */,
+				2B1E45C0B31C1D3B1194BC54 /* Pods_HA_iOS_TakeHomeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -227,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 585ADF15217805C500D76AB6 /* Build configuration list for PBXNativeTarget "HA_iOS_TakeHomeTests" */;
 			buildPhases = (
+				0A0925A04B8F2C3A6C2A4585 /* [CP] Check Pods Manifest.lock */,
 				585ADEFA217805C500D76AB6 /* Sources */,
 				585ADEFB217805C500D76AB6 /* Frameworks */,
 				585ADEFC217805C500D76AB6 /* Resources */,
+				62DF71059C3FE82C7BBEE981 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -330,6 +340,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0A0925A04B8F2C3A6C2A4585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HA_iOS_TakeHomeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		20B21A09119FC56B6C88BDF5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +382,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62DF71059C3FE82C7BBEE981 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HA_iOS_TakeHomeTests/Pods-HA_iOS_TakeHomeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HA_iOS_TakeHomeTests/Pods-HA_iOS_TakeHomeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D3459F157C39D24433E76882 /* [CP] Embed Pods Frameworks */ = {
@@ -394,7 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585ADF03217805C500D76AB6 /* HA_iOS_TakeHomeTests.swift in Sources */,
+				580E9918217EC68E0050EE22 /* ProCellSnapshot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +643,7 @@
 		};
 		585ADF16217805C500D76AB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FDD773568D796DA4FBEF1D /* Pods-HA_iOS_TakeHomeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -610,6 +665,7 @@
 		};
 		585ADF17217805C500D76AB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EB35FC5AF71008DACF519B /* Pods-HA_iOS_TakeHomeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

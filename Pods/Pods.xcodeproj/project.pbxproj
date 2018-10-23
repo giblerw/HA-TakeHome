@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10F4B6FCD48661973A5EB61B272E9138 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */; };
-		21F704CE23BB5A5A68CC31153A2E4CA7 /* Pods-HA_iOS_TakeHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7C251E25156610715C7644D7ACA94D /* Pods-HA_iOS_TakeHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		256146A73E0C29315A3D4455F6082B61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		51A9AB982B33873EC4FA079E2AB6C245 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 519F97488515DDE14F549C4A2F8CC247 /* SwiftyJSON-dummy.m */; };
-		9DB9D33975D84B150B36D27E6C905E0A /* Pods-HA_iOS_TakeHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0244E89CF67E739B00E7E7AFBB9A777 /* Pods-HA_iOS_TakeHome-dummy.m */; };
-		EEB18301349DC9FA9462D8FC30CAD914 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2545A43F22D33A594021F5DC0CEB3AD /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F447AFD1431E1DD49ABA986A2D9F3388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		10F4B6FCD48661973A5EB61B272E9138 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48DD0FCC8364B19B85A05E81FE27BC /* SwiftyJSON.swift */; };
+		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FAE2AD3A86EFED7F65B68CC07EE6D1 /* SwiftSupport.swift */; };
+		21F704CE23BB5A5A68CC31153A2E4CA7 /* Pods-HA_iOS_TakeHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B56CF2B9AA870F17F6DAC0CE7223B5B /* Pods-HA_iOS_TakeHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256146A73E0C29315A3D4455F6082B61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
+		2F1DF0859B651451F245E756C7E44AED /* Pods-HA_iOS_TakeHomeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1585EC3D3DE79DE1FA0365163141695 /* Pods-HA_iOS_TakeHomeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CD333AE3109AB7F617155E6234573C /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C363F42614B299621CB3D63809388D6 /* FBSnapshotTestCase-dummy.m */; };
+		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 122A6EA1D29FB05D9CF4E28014757258 /* UIImage+Compare.m */; };
+		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7826A2978B80C2F3399ED2242B446C4 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FCD8623023CA4D58824FF953167F79 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		51A9AB982B33873EC4FA079E2AB6C245 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E159F39E9BC32200919A9760870FDE0C /* SwiftyJSON-dummy.m */; };
+		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DAB1B4570C2E5E064756322DFA4DBE /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B7E469B2238324A766CE5F574B34296 /* Pods-HA_iOS_TakeHomeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF22E4EE75BB375545F076D89DA9C9 /* Pods-HA_iOS_TakeHomeTests-dummy.m */; };
+		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 9661C607C753E093937D514B7F8586BA /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D01861CBB824F496D21D94908EC74EC /* FBSnapshotTestCasePlatform.m */; };
+		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 839AD6CECC27D7583D0BFD625906CFE0 /* FBSnapshotTestCase.m */; };
+		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F43DDAB9FAD37009145092BF1834D98 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9DB9D33975D84B150B36D27E6C905E0A /* Pods-HA_iOS_TakeHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9624BC29802AA91F4F75DA151D5D3C /* Pods-HA_iOS_TakeHome-dummy.m */; };
+		9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
+		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1B3588F7C80E53FA78AB8BE3E221A3 /* UIApplication+StrictKeyWindow.m */; };
+		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = B60425BAA790E07BFF267769EB77B56D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 334FEE430ED6688FDB99E27171C9C29E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D61D04361806C7A0654F5FC16D10C70 /* FBSnapshotTestController.m */; };
+		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CF70D3A76A9514EC2CD62F027F1D9B /* UIImage+Diff.m */; };
+		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B8AFA4484C6BB9DCF72D0F544EE0B0 /* UIImage+Snapshot.m */; };
+		ED05122FA0E93DA4BD54584FF0CE12CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		EEB18301349DC9FA9462D8FC30CAD914 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F6B064ED9EC638D582DD137E0F435F /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0927776360A862E129EB047678084BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
+		F447AFD1431E1DD49ABA986A2D9F3388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,33 +48,102 @@
 			remoteGlobalIDString = 0F8549770E4DBD2CE8350933B46029EA;
 			remoteInfo = SwiftyJSON;
 		};
+		C3F9D60B1E2FC038A4593AC84B1996D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF0555966ED1A96135B3332FFFDA7CE;
+			remoteInfo = "Pods-HA_iOS_TakeHome";
+		};
+		D7205E4ADAAB6A62CEE149DBC0B2ED19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9208F82521C84CC962FB475DC38D3371;
+			remoteInfo = FBSnapshotTestCase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A14CB2576108FA1885F1B419D71483D /* Pods-HA_iOS_TakeHome-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HA_iOS_TakeHome-acknowledgements.plist"; sourceTree = "<group>"; };
-		519F97488515DDE14F549C4A2F8CC247 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		59D3D850858724B5F1C2A81ABD386CFD /* Pods-HA_iOS_TakeHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HA_iOS_TakeHome.modulemap"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		70DC2C0A366FFB8B369671FF7FB7E410 /* Pods_HA_iOS_TakeHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HA_iOS_TakeHome.framework; path = "Pods-HA_iOS_TakeHome.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83B82F63FAD4271C84265BEC3F20EEFF /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		075960D3ADD07688B5577F96965E2BF6 /* Pods_HA_iOS_TakeHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HA_iOS_TakeHomeTests.framework; path = "Pods-HA_iOS_TakeHomeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A754F7323E2F221D7CA7039DEA7F7BC /* Pods-HA_iOS_TakeHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HA_iOS_TakeHomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D01861CBB824F496D21D94908EC74EC /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		0F9624BC29802AA91F4F75DA151D5D3C /* Pods-HA_iOS_TakeHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HA_iOS_TakeHome-dummy.m"; sourceTree = "<group>"; };
+		11B9CEEA3AA921F423DCC677BD345A51 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		122A6EA1D29FB05D9CF4E28014757258 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		135E60AFE51F697304DD9CF92E9F192F /* Pods-HA_iOS_TakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HA_iOS_TakeHome.debug.xcconfig"; sourceTree = "<group>"; };
+		1AFF540D835E499B062EE9F080219CCF /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC96B1083C93F55E5B2FA07E4B15E4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D98E34C0C54008D1E44980FB0BD8415 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FAE2AD3A86EFED7F65B68CC07EE6D1 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		2DA6CF4F0A28590D5A36532489586EFC /* Pods-HA_iOS_TakeHomeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HA_iOS_TakeHomeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E48DD0FCC8364B19B85A05E81FE27BC /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		334FEE430ED6688FDB99E27171C9C29E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		348860D9BAA2CA3CFE2502A245B9FBC2 /* Pods-HA_iOS_TakeHomeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HA_iOS_TakeHomeTests.modulemap"; sourceTree = "<group>"; };
+		3F9C1E557257378DFA20B550E6261903 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B8AFA4484C6BB9DCF72D0F544EE0B0 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		5BCF22E4EE75BB375545F076D89DA9C9 /* Pods-HA_iOS_TakeHomeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HA_iOS_TakeHomeTests-dummy.m"; sourceTree = "<group>"; };
+		5C363F42614B299621CB3D63809388D6 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		5DF29B9F412DFCF8E25E46C8CCD0A805 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		62DB52F8F5319F569FAA1F6E078A771A /* Pods-HA_iOS_TakeHome-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HA_iOS_TakeHome-frameworks.sh"; sourceTree = "<group>"; };
+		64CD333AE3109AB7F617155E6234573C /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		6F43DDAB9FAD37009145092BF1834D98 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		7622B5A2AC964B774AE90917B8F5B72A /* Pods-HA_iOS_TakeHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HA_iOS_TakeHome.release.xcconfig"; sourceTree = "<group>"; };
+		78DAB1B4570C2E5E064756322DFA4DBE /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		839AD6CECC27D7583D0BFD625906CFE0 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		850569485D34C7F8190BDAE0C86B8D4A /* Pods_HA_iOS_TakeHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HA_iOS_TakeHome.framework; path = "Pods-HA_iOS_TakeHome.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A783651679819292DDA20F48B28C674 /* Pods-HA_iOS_TakeHome-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HA_iOS_TakeHome-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D61D04361806C7A0654F5FC16D10C70 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A0034DD1C45616E8D4C9E5A7E005806 /* Pods-HA_iOS_TakeHome-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HA_iOS_TakeHome-resources.sh"; sourceTree = "<group>"; };
-		B60A2AB010CB3D29AC88A6CF0CF06CEC /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		C1770E250C10B3F0526F14EC56545E0E /* Pods-HA_iOS_TakeHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HA_iOS_TakeHome.release.xcconfig"; sourceTree = "<group>"; };
-		CFD20802D77DE4FF825B16BE9FAFA9E0 /* Pods-HA_iOS_TakeHome-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HA_iOS_TakeHome-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0244E89CF67E739B00E7E7AFBB9A777 /* Pods-HA_iOS_TakeHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HA_iOS_TakeHome-dummy.m"; sourceTree = "<group>"; };
-		D21EF79A0DE4EDFC757EE852FE857C73 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		D2545A43F22D33A594021F5DC0CEB3AD /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		DBEA82664B8B74B6028861261F51A8EF /* Pods-HA_iOS_TakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HA_iOS_TakeHome.debug.xcconfig"; sourceTree = "<group>"; };
-		DF693957199CD0167B0F0B9F4E9A6C91 /* Pods-HA_iOS_TakeHome-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HA_iOS_TakeHome-frameworks.sh"; sourceTree = "<group>"; };
-		E45022699EDA438A046AD43BC3926B01 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		ECEA92E182BA77F227E4165B4260E0FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE4B9F2042CAE4F878421B0281C4C80B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE7C251E25156610715C7644D7ACA94D /* Pods-HA_iOS_TakeHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HA_iOS_TakeHome-umbrella.h"; sourceTree = "<group>"; };
+		95CF70D3A76A9514EC2CD62F027F1D9B /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		9661C607C753E093937D514B7F8586BA /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		99A26EB1B84A004B65C2C28F2DEADB12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		99BBF24083436D9A8D14EF0D2D3217BA /* Pods-HA_iOS_TakeHome-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HA_iOS_TakeHome-acknowledgements.plist"; sourceTree = "<group>"; };
+		99F1144C0EC3FBA779D3489754FCB77E /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		9B56CF2B9AA870F17F6DAC0CE7223B5B /* Pods-HA_iOS_TakeHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HA_iOS_TakeHome-umbrella.h"; sourceTree = "<group>"; };
+		A4FCD8623023CA4D58824FF953167F79 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		A7F6B064ED9EC638D582DD137E0F435F /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		AFA321AAEE0E9FE13BE2BF0C67E92A56 /* Pods-HA_iOS_TakeHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HA_iOS_TakeHome.modulemap"; sourceTree = "<group>"; };
+		B60425BAA790E07BFF267769EB77B56D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		B6DAD4DFD94460834100F34A276B9157 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2DC7EBB440B60A869111B4AC0C740A /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFEB4D364D8803CCD0355ECB3C989F23 /* Pods-HA_iOS_TakeHomeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HA_iOS_TakeHomeTests-resources.sh"; sourceTree = "<group>"; };
+		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB1B3588F7C80E53FA78AB8BE3E221A3 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		D24C8E38B673DC999231A61DEE3EAA9C /* Pods-HA_iOS_TakeHome-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HA_iOS_TakeHome-resources.sh"; sourceTree = "<group>"; };
+		D3920ACA269AB5F38E2479636168319E /* Pods-HA_iOS_TakeHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HA_iOS_TakeHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DC09B1047AEF9A93C6B749C5C701C013 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		E0D50BE93F310E4BFBF200130D4D2922 /* Pods-HA_iOS_TakeHomeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HA_iOS_TakeHomeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1585EC3D3DE79DE1FA0365163141695 /* Pods-HA_iOS_TakeHomeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HA_iOS_TakeHomeTests-umbrella.h"; sourceTree = "<group>"; };
+		E159F39E9BC32200919A9760870FDE0C /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		E6D3EC89FD5FE2DA8A47096E0CC3C8BB /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F0E8A3D82686D15CB235753A4474B5BA /* Pods-HA_iOS_TakeHomeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HA_iOS_TakeHomeTests-frameworks.sh"; sourceTree = "<group>"; };
+		F7826A2978B80C2F3399ED2242B446C4 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		06A086085916D88E8F989A2FD78DFDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */,
+				293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */,
+				F0927776360A862E129EB047678084BC /* UIKit.framework in Frameworks */,
+				9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6554CDD877CA5E30C9CA1A86213354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED05122FA0E93DA4BD54584FF0CE12CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		864C082300644E47B591FF4BEE3CA5AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,98 +163,177 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15D81A9B15F427E617368390173DCEC4 /* Products */ = {
+		0D86877565611F90D8E43090E553481C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				70DC2C0A366FFB8B369671FF7FB7E410 /* Pods_HA_iOS_TakeHome.framework */,
-				B60A2AB010CB3D29AC88A6CF0CF06CEC /* SwiftyJSON.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		49620398B7DA56DE6F571994E4654929 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C6A0D18D8A0A1D87BBD78170BDE1D82 /* Pods-HA_iOS_TakeHome */,
+				11096ABC18B4F966F3EF89C665D3E365 /* Pods-HA_iOS_TakeHome */,
+				7DFDE0E30C57A37580851996373236DA /* Pods-HA_iOS_TakeHomeTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		11096ABC18B4F966F3EF89C665D3E365 /* Pods-HA_iOS_TakeHome */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				3F9C1E557257378DFA20B550E6261903 /* Info.plist */,
+				AFA321AAEE0E9FE13BE2BF0C67E92A56 /* Pods-HA_iOS_TakeHome.modulemap */,
+				8A783651679819292DDA20F48B28C674 /* Pods-HA_iOS_TakeHome-acknowledgements.markdown */,
+				99BBF24083436D9A8D14EF0D2D3217BA /* Pods-HA_iOS_TakeHome-acknowledgements.plist */,
+				0F9624BC29802AA91F4F75DA151D5D3C /* Pods-HA_iOS_TakeHome-dummy.m */,
+				62DB52F8F5319F569FAA1F6E078A771A /* Pods-HA_iOS_TakeHome-frameworks.sh */,
+				D24C8E38B673DC999231A61DEE3EAA9C /* Pods-HA_iOS_TakeHome-resources.sh */,
+				9B56CF2B9AA870F17F6DAC0CE7223B5B /* Pods-HA_iOS_TakeHome-umbrella.h */,
+				135E60AFE51F697304DD9CF92E9F192F /* Pods-HA_iOS_TakeHome.debug.xcconfig */,
+				7622B5A2AC964B774AE90917B8F5B72A /* Pods-HA_iOS_TakeHome.release.xcconfig */,
+			);
+			name = "Pods-HA_iOS_TakeHome";
+			path = "Target Support Files/Pods-HA_iOS_TakeHome";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EB1A8839A654B1F16EF9E6F67243337 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32651BEE0F39D98A33025986F615E519 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				AF5B7DB6046FBC2024EA2C2C7B5D8656 /* Core */,
+				D54AE6C1669D16EF7F9EAB0FBA898955 /* Support Files */,
+				8CBA3B025027E257EF3ECD37EB45BA92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		3EB1A8839A654B1F16EF9E6F67243337 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */,
+				D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */,
+				BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */,
+				E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */ = {
+		68B62DC0665C58915CDA91B52DEB3804 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
-				A82FB0ABA1BB1D08F4FA0D68E7D324CB /* Support Files */,
+				2E48DD0FCC8364B19B85A05E81FE27BC /* SwiftyJSON.swift */,
+				9A40769C9928DAC75D5EC08E2A17AA08 /* Support Files */,
 			);
 			name = SwiftyJSON;
 			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		78174933E85DA74146DA620B1DA64D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2DC7EBB440B60A869111B4AC0C740A /* FBSnapshotTestCase.framework */,
+				850569485D34C7F8190BDAE0C86B8D4A /* Pods_HA_iOS_TakeHome.framework */,
+				075960D3ADD07688B5577F96965E2BF6 /* Pods_HA_iOS_TakeHomeTests.framework */,
+				1AFF540D835E499B062EE9F080219CCF /* SwiftyJSON.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
-				15D81A9B15F427E617368390173DCEC4 /* Products */,
-				49620398B7DA56DE6F571994E4654929 /* Targets Support Files */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				A1E29BDBA2721702792837053AC27E2E /* Pods */,
+				78174933E85DA74146DA620B1DA64D81 /* Products */,
+				0D86877565611F90D8E43090E553481C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8C6A0D18D8A0A1D87BBD78170BDE1D82 /* Pods-HA_iOS_TakeHome */ = {
+		7DFDE0E30C57A37580851996373236DA /* Pods-HA_iOS_TakeHomeTests */ = {
 			isa = PBXGroup;
 			children = (
-				FE4B9F2042CAE4F878421B0281C4C80B /* Info.plist */,
-				59D3D850858724B5F1C2A81ABD386CFD /* Pods-HA_iOS_TakeHome.modulemap */,
-				CFD20802D77DE4FF825B16BE9FAFA9E0 /* Pods-HA_iOS_TakeHome-acknowledgements.markdown */,
-				4A14CB2576108FA1885F1B419D71483D /* Pods-HA_iOS_TakeHome-acknowledgements.plist */,
-				D0244E89CF67E739B00E7E7AFBB9A777 /* Pods-HA_iOS_TakeHome-dummy.m */,
-				DF693957199CD0167B0F0B9F4E9A6C91 /* Pods-HA_iOS_TakeHome-frameworks.sh */,
-				9A0034DD1C45616E8D4C9E5A7E005806 /* Pods-HA_iOS_TakeHome-resources.sh */,
-				FE7C251E25156610715C7644D7ACA94D /* Pods-HA_iOS_TakeHome-umbrella.h */,
-				DBEA82664B8B74B6028861261F51A8EF /* Pods-HA_iOS_TakeHome.debug.xcconfig */,
-				C1770E250C10B3F0526F14EC56545E0E /* Pods-HA_iOS_TakeHome.release.xcconfig */,
+				1D98E34C0C54008D1E44980FB0BD8415 /* Info.plist */,
+				348860D9BAA2CA3CFE2502A245B9FBC2 /* Pods-HA_iOS_TakeHomeTests.modulemap */,
+				E0D50BE93F310E4BFBF200130D4D2922 /* Pods-HA_iOS_TakeHomeTests-acknowledgements.markdown */,
+				2DA6CF4F0A28590D5A36532489586EFC /* Pods-HA_iOS_TakeHomeTests-acknowledgements.plist */,
+				5BCF22E4EE75BB375545F076D89DA9C9 /* Pods-HA_iOS_TakeHomeTests-dummy.m */,
+				F0E8A3D82686D15CB235753A4474B5BA /* Pods-HA_iOS_TakeHomeTests-frameworks.sh */,
+				BFEB4D364D8803CCD0355ECB3C989F23 /* Pods-HA_iOS_TakeHomeTests-resources.sh */,
+				E1585EC3D3DE79DE1FA0365163141695 /* Pods-HA_iOS_TakeHomeTests-umbrella.h */,
+				D3920ACA269AB5F38E2479636168319E /* Pods-HA_iOS_TakeHomeTests.debug.xcconfig */,
+				0A754F7323E2F221D7CA7039DEA7F7BC /* Pods-HA_iOS_TakeHomeTests.release.xcconfig */,
 			);
-			name = "Pods-HA_iOS_TakeHome";
-			path = "Target Support Files/Pods-HA_iOS_TakeHome";
+			name = "Pods-HA_iOS_TakeHomeTests";
+			path = "Target Support Files/Pods-HA_iOS_TakeHomeTests";
 			sourceTree = "<group>";
 		};
-		A82FB0ABA1BB1D08F4FA0D68E7D324CB /* Support Files */ = {
+		8CBA3B025027E257EF3ECD37EB45BA92 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				ECEA92E182BA77F227E4165B4260E0FA /* Info.plist */,
-				E45022699EDA438A046AD43BC3926B01 /* SwiftyJSON.modulemap */,
-				83B82F63FAD4271C84265BEC3F20EEFF /* SwiftyJSON.xcconfig */,
-				519F97488515DDE14F549C4A2F8CC247 /* SwiftyJSON-dummy.m */,
-				D21EF79A0DE4EDFC757EE852FE857C73 /* SwiftyJSON-prefix.pch */,
-				D2545A43F22D33A594021F5DC0CEB3AD /* SwiftyJSON-umbrella.h */,
+				20FAE2AD3A86EFED7F65B68CC07EE6D1 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9A40769C9928DAC75D5EC08E2A17AA08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6DAD4DFD94460834100F34A276B9157 /* Info.plist */,
+				DC09B1047AEF9A93C6B749C5C701C013 /* SwiftyJSON.modulemap */,
+				11B9CEEA3AA921F423DCC677BD345A51 /* SwiftyJSON.xcconfig */,
+				E159F39E9BC32200919A9760870FDE0C /* SwiftyJSON-dummy.m */,
+				E6D3EC89FD5FE2DA8A47096E0CC3C8BB /* SwiftyJSON-prefix.pch */,
+				A7F6B064ED9EC638D582DD137E0F435F /* SwiftyJSON-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A1E29BDBA2721702792837053AC27E2E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */,
+				32651BEE0F39D98A33025986F615E519 /* FBSnapshotTestCase */,
+				68B62DC0665C58915CDA91B52DEB3804 /* SwiftyJSON */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF5B7DB6046FBC2024EA2C2C7B5D8656 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B60425BAA790E07BFF267769EB77B56D /* FBSnapshotTestCase.h */,
+				839AD6CECC27D7583D0BFD625906CFE0 /* FBSnapshotTestCase.m */,
+				A4FCD8623023CA4D58824FF953167F79 /* FBSnapshotTestCasePlatform.h */,
+				0D01861CBB824F496D21D94908EC74EC /* FBSnapshotTestCasePlatform.m */,
+				78DAB1B4570C2E5E064756322DFA4DBE /* FBSnapshotTestController.h */,
+				8D61D04361806C7A0654F5FC16D10C70 /* FBSnapshotTestController.m */,
+				334FEE430ED6688FDB99E27171C9C29E /* UIApplication+StrictKeyWindow.h */,
+				CB1B3588F7C80E53FA78AB8BE3E221A3 /* UIApplication+StrictKeyWindow.m */,
+				9661C607C753E093937D514B7F8586BA /* UIImage+Compare.h */,
+				122A6EA1D29FB05D9CF4E28014757258 /* UIImage+Compare.m */,
+				6F43DDAB9FAD37009145092BF1834D98 /* UIImage+Diff.h */,
+				95CF70D3A76A9514EC2CD62F027F1D9B /* UIImage+Diff.m */,
+				64CD333AE3109AB7F617155E6234573C /* UIImage+Snapshot.h */,
+				55B8AFA4484C6BB9DCF72D0F544EE0B0 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D54AE6C1669D16EF7F9EAB0FBA898955 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF29B9F412DFCF8E25E46C8CCD0A805 /* FBSnapshotTestCase.modulemap */,
+				99F1144C0EC3FBA779D3489754FCB77E /* FBSnapshotTestCase.xcconfig */,
+				5C363F42614B299621CB3D63809388D6 /* FBSnapshotTestCase-dummy.m */,
+				99A26EB1B84A004B65C2C28F2DEADB12 /* FBSnapshotTestCase-prefix.pch */,
+				F7826A2978B80C2F3399ED2242B446C4 /* FBSnapshotTestCase-umbrella.h */,
+				1CC96B1083C93F55E5B2FA07E4B15E4B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +355,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */,
+				B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */,
+				4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */,
+				59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */,
+				BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */,
+				63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */,
+				73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */,
+				387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8183DDEF97972B010E854FFB03C646 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1DF0859B651451F245E756C7E44AED /* Pods-HA_iOS_TakeHomeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -201,7 +396,45 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = B60A2AB010CB3D29AC88A6CF0CF06CEC /* SwiftyJSON.framework */;
+			productReference = 1AFF540D835E499B062EE9F080219CCF /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */,
+				533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */,
+				06A086085916D88E8F989A2FD78DFDFB /* Frameworks */,
+				AD4E4321B395852DC07143FDAF5069AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = BB2DC7EBB440B60A869111B4AC0C740A /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2F0E38878319D8052E7B37149C5D8D4 /* Pods-HA_iOS_TakeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB7BF0B115A3E494B50F5870F0FB336 /* Build configuration list for PBXNativeTarget "Pods-HA_iOS_TakeHomeTests" */;
+			buildPhases = (
+				BA8183DDEF97972B010E854FFB03C646 /* Headers */,
+				F481C375EA9F7D4FE60D0EE835669479 /* Sources */,
+				1B6554CDD877CA5E30C9CA1A86213354 /* Frameworks */,
+				379101A8873F42E392325847FA863604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE260B5233118BB49EF612D37307E63A /* PBXTargetDependency */,
+				E99D37B018A7E3C6AE63C0F3B1DCB3C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-HA_iOS_TakeHomeTests";
+			productName = "Pods-HA_iOS_TakeHomeTests";
+			productReference = 075960D3ADD07688B5577F96965E2BF6 /* Pods_HA_iOS_TakeHomeTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FFF0555966ED1A96135B3332FFFDA7CE /* Pods-HA_iOS_TakeHome */ = {
@@ -220,7 +453,7 @@
 			);
 			name = "Pods-HA_iOS_TakeHome";
 			productName = "Pods-HA_iOS_TakeHome";
-			productReference = 70DC2C0A366FFB8B369671FF7FB7E410 /* Pods_HA_iOS_TakeHome.framework */;
+			productReference = 850569485D34C7F8190BDAE0C86B8D4A /* Pods_HA_iOS_TakeHome.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -240,18 +473,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 15D81A9B15F427E617368390173DCEC4 /* Products */;
+			productRefGroup = 78174933E85DA74146DA620B1DA64D81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */,
 				FFF0555966ED1A96135B3332FFFDA7CE /* Pods-HA_iOS_TakeHome */,
+				F2F0E38878319D8052E7B37149C5D8D4 /* Pods-HA_iOS_TakeHomeTests */,
 				0F8549770E4DBD2CE8350933B46029EA /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		379101A8873F42E392325847FA863604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5CC1F8B59191B503B6AC5AF20F7FC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E4321B395852DC07143FDAF5069AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,11 +517,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */,
+				6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */,
+				6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */,
+				E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */,
+				163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */,
+				AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */,
+				4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */,
+				E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */,
+				EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3C5E471D7BD03FA9311A83496E6B97D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9DB9D33975D84B150B36D27E6C905E0A /* Pods-HA_iOS_TakeHome-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F481C375EA9F7D4FE60D0EE835669479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7E469B2238324A766CE5F574B34296 /* Pods-HA_iOS_TakeHomeTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,9 +567,57 @@
 			target = 0F8549770E4DBD2CE8350933B46029EA /* SwiftyJSON */;
 			targetProxy = 0D9F3D4DC4CE59E8F7BAE35AE5F84E7F /* PBXContainerItemProxy */;
 		};
+		E99D37B018A7E3C6AE63C0F3B1DCB3C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HA_iOS_TakeHome";
+			target = FFF0555966ED1A96135B3332FFFDA7CE /* Pods-HA_iOS_TakeHome */;
+			targetProxy = C3F9D60B1E2FC038A4593AC84B1996D6 /* PBXContainerItemProxy */;
+		};
+		EE260B5233118BB49EF612D37307E63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */;
+			targetProxy = D7205E4ADAAB6A62CEE149DBC0B2ED19 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2593C2FA620D76C070E551593CC843B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F1144C0EC3FBA779D3489754FCB77E /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -355,6 +676,46 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		6DF50F15F1DBD069F5D42B570C70AD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3920ACA269AB5F38E2479636168319E /* Pods-HA_iOS_TakeHomeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HA_iOS_TakeHomeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HA_iOS_TakeHomeTests/Pods-HA_iOS_TakeHomeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -420,9 +781,50 @@
 			};
 			name = Debug;
 		};
+		8627CED13DC1AD291EBF5BB7B960C193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A754F7323E2F221D7CA7039DEA7F7BC /* Pods-HA_iOS_TakeHomeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HA_iOS_TakeHomeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HA_iOS_TakeHomeTests/Pods-HA_iOS_TakeHomeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8E8298D99C6DFADBFC0AAB8359E308A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1770E250C10B3F0526F14EC56545E0E /* Pods-HA_iOS_TakeHome.release.xcconfig */;
+			baseConfigurationReference = 7622B5A2AC964B774AE90917B8F5B72A /* Pods-HA_iOS_TakeHome.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -463,7 +865,7 @@
 		};
 		A52303196AAE64EA9A58D99496009017 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBEA82664B8B74B6028861261F51A8EF /* Pods-HA_iOS_TakeHome.debug.xcconfig */;
+			baseConfigurationReference = 135E60AFE51F697304DD9CF92E9F192F /* Pods-HA_iOS_TakeHome.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -503,7 +905,7 @@
 		};
 		C482CF7D345132B5D296B77339D01CCF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83B82F63FAD4271C84265BEC3F20EEFF /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 11B9CEEA3AA921F423DCC677BD345A51 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -539,9 +941,47 @@
 			};
 			name = Release;
 		};
+		C6858E21D304E7274C89787CFAEDFACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F1144C0EC3FBA779D3489754FCB77E /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CD40497444014B333CAE120236BC6D8E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83B82F63FAD4271C84265BEC3F20EEFF /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 11B9CEEA3AA921F423DCC677BD345A51 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -583,6 +1023,24 @@
 			buildConfigurations = (
 				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
 				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2593C2FA620D76C070E551593CC843B1 /* Debug */,
+				C6858E21D304E7274C89787CFAEDFACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB7BF0B115A3E494B50F5870F0FB336 /* Build configuration list for PBXNativeTarget "Pods-HA_iOS_TakeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF50F15F1DBD069F5D42B570C70AD16 /* Debug */,
+				8627CED13DC1AD291EBF5BB7B960C193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
